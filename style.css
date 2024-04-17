@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --marelo: rgba(204, 140, 26, 1);
+    --marelinho: rgba(226, 198, 95, 1); 
+    --mamarelinho: rgba(188, 165, 35, 1);
+    --Kabru: #16232E;
+    --kabru2: #164C45;
+
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    background: var(--kabru2);
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+footer{
+    background: var(--Kabru);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+    color: aliceblue;
+    height: 267px;
+}
+
+
+.texto{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 160%;
+    padding: 1%;
+}
+
+#imagem{
+    width: 32rem;
+    height: 32rem;
+    border-radius: 55px;
+    padding: 0%;
+    border: solid 15px var(--marelo);
+}
+
+.perguntas{
+    display: flex;
+    padding: 2%;
+    font-size: 160%;
+}
+
+#kabruru{
+    width: 20rem;
+    height: 20rem;
+    padding: 3%;
+    border-radius: 100%;
+}
+
+input{
+    border-radius: 35px;
+    border-color: transparent;
+    background-color: var(--marelinho);
+}
+
+input:focus{
+    outline: var(--Kabru);
+}
+
+#submit{
+    background-color: var(--mamarelinho);
+    width: 202px;
+    padding: 20px;
+    border-radius: 15px;
+    border: transparent;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+
+#submit:active{
+    background-color: var(--marelinho);
+    width: 202px;
+    padding: 20px;
+    border-radius: 15px;
+    border: transparent;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+
+#rere{
+    color: aliceblue;
+    padding: 3%;
+    font-size: 25px;
+
+}
+
+p{
+    padding: 1%;
+}
+
+.resposota{
+    display: inline-flex;
+    width: 500px;
+    flex-direction: row;
+    display: flexbox;
+    padding: 2%;
+    border-radius: 25px;
+    background-color: var(--Kabru);
+    margin-top: 3%;
+}
+
+#respostaLaios{
+    border-radius: 100%;
+}
